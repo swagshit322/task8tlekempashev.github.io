@@ -378,19 +378,19 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center; color: white; margin-bottom: 30px;">Форма обратной связи</h1>
-        <button class="open-form-btn" onclick="openForm()">📧 Обратная связь</button>
+        <h1 style="text-align: center; color: white; margin-bottom: 30px;">🎄 Форма обратной связи 🎄</h1>
+        <button class="open-form-btn" onclick="openForm()">🎄 Обратная связь 🎄</button>
         
         <div style="background: white; padding: 30px; border-radius: 15px; margin-top: 30px; text-align: center;">
-            <h3>Форма с сохранением данных</h3>
-            <p>Данные автоматически сохраняются и восстанавливаются при повторном открытии</p>
+            <h3>🎄 Форма с сохранением данных 🎄</h3>
+            <p>🎄 Данные автоматически сохраняются и восстанавливаются при повторном открытии 🎄</p>
         </div>
     </div>
 
     <div class="overlay" id="overlay">
         <div class="form-popup">
             <div class="form-header">
-                <h2>Обратная связь</h2>
+                <h2>🎄 Обратная связь 🎄</h2>
                 <button class="close-btn" onclick="closeForm()">&times;</button>
             </div>
 
@@ -399,30 +399,30 @@
             <div class="form-content">
                 <form id="feedbackForm" novalidate>
                     <div class="form-group">
-                        <label for="fullName" class="required">ФИО</label>
+                        <label for="fullName" class="required">🎁 ФИО 🎁</label>
                         <input type="text" id="fullName" name="fullName" required>
                         <div class="error-message" id="fullNameError">Пожалуйста, введите ваше ФИО</div>
                     </div>
 
                     <div class="form-group">
-                        <label for="email" class="required">Email</label>
+                        <label for="email" class="required">🎅 Email 🎅</label>
                         <input type="email" id="email" name="email" required>
                         <div class="error-message" id="emailError">Пожалуйста, введите корректный email</div>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Телефон</label>
+                        <label for="phone">🎁 Телефон 🎁</label>
                         <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
                         <div class="error-message" id="phoneError">Пожалуйста, введите корректный номер телефона</div>
                     </div>
 
                     <div class="form-group">
-                        <label for="organization">Организация</label>
+                        <label for="organization">🎅 Организация 🎅</label>
                         <input type="text" id="organization" name="organization">
                     </div>
 
                     <div class="form-group">
-                        <label for="messageText" class="required">Сообщение</label>
+                        <label for="messageText" class="required">✔️ Сообщение ✔️</label>
                         <textarea id="messageText" name="message" required placeholder="Расскажите, чем мы можем вам помочь..."></textarea>
                         <div class="error-message" id="messageError">Пожалуйста, введите ваше сообщение</div>
                     </div>
@@ -437,7 +437,7 @@
 
                     <!-- Кнопка для десктопной версии -->
                     <button type="submit" class="submit-btn-desktop" id="submitBtnDesktop">
-                        <span id="submitTextDesktop">Отправить сообщение</span>
+                        <span id="submitTextDesktop">✔️ Отправить сообщение ✔️</span>
                     </button>
                 </form>
             </div>
@@ -445,7 +445,7 @@
 
         <!-- Кнопка для мобильной версии - ВНЕ формы, фиксированная -->
         <button type="submit" class="submit-btn-mobile hidden" id="submitBtnMobile" form="feedbackForm">
-            <span id="submitTextMobile">Отправить сообщение</span>
+            <span id="submitTextMobile">✔️ Отправить сообщение ✔️</span>
         </button>
     </div>
 
